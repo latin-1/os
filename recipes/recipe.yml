@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
 name: os
 description: Hikari's personal operating system.
 
@@ -6,8 +8,31 @@ image-version: 41
 
 modules:
   - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/repo/fedora-%OS_VERSION%/peterwu-iosevka-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/zeno/scrcpy/repo/fedora-%OS_VERSION%/zeno-scrcpy-fedora-%OS_VERSION%.repo
+      - https://download.opensuse.org/repositories/shells:fish:beta:4/Fedora_%OS_VERSION%/shells:fish:beta:4.repo
+      - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
+    install:
+      - adobe-source-sans-pro-fonts
+      - adobe-source-serif-pro-fonts
+      - adw-gtk3-theme
+      - android-tools
+      - distrobox
+      - fish
+      - ghostty
+      - google-noto-fonts-all
+      - gstreamer1-plugin-openh264
+      - ibus-rime
+      - iosevka-fonts
+      - iosevka-term-fonts
+      - neovim
+      - openh264
+      - scrcpy
+      - starship
+      - terra-release
+      - zed-preview
     remove:
       - firefox
       - firefox-langpacks
-
-  - type: signing
+      - noopenh264
