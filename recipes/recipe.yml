@@ -7,6 +7,8 @@ base-image: quay.io/fedora-ostree-desktops/silverblue
 image-version: 41
 
 modules:
+  - type: signing
+
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/repo/fedora-%OS_VERSION%/peterwu-iosevka-fedora-%OS_VERSION%.repo
@@ -36,3 +38,11 @@ modules:
       - firefox
       - firefox-langpacks
       - noopenh264
+
+  - type: systemd
+    system:
+      enabled:
+        - adb.service
+    user:
+      enabled:
+        - gpg-agent.socket
