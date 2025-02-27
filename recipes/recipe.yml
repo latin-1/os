@@ -42,6 +42,11 @@ modules:
       - firefox-langpacks
       - noopenh264
 
+  - type: files
+    files:
+      - source: system
+        destination: /
+
   - type: systemd
     system:
       enabled:
