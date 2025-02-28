@@ -19,7 +19,11 @@ remove-old-temp-files=true
 remove-old-trash-files=true
 
 [org/gnome/desktop/screensaver]
+lock-delay=uint32 60
 picture-uri='file:///usr/share/backgrounds/os/background.jpg'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 600
 
 [org/gnome/mutter]
 experimental-features=['scale-monitor-framebuffer', 'variable-refresh-rate', 'xwayland-native-scaling']
@@ -45,3 +49,6 @@ power-button-action='nothing'
 [org/gnome/shell]
 enabled-extensions=@as []
 favorite-apps=['org.gnome.Nautilus.desktop', 'com.google.Chrome.desktop']
+
+[org/gnome/system/location]
+enabled=true

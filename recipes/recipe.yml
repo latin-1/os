@@ -79,4 +79,3 @@ modules:
         - org.gnome.Showtime
         - org.gnome.Snapshot
         - org.gnome.TextEditor
-        - org.gnome.font-viewer
