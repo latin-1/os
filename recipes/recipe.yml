@@ -58,3 +58,7 @@ modules:
     user:
       enabled:
         - gpg-agent.socket
+
+  - type: bling
+    install:
+      - dconf-update-service
