@@ -5,12 +5,15 @@ picture-uri='file:///usr/share/backgrounds/os/background.jpg'
 automatic-timezone=true
 
 [org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'us'), ('ibus', 'rime')]
 sources=[('xkb', 'us'), ('ibus', 'rime')]
 
 [org/gnome/desktop/interface]
 accent-color='pink'
 clock-show-weekday=true
+font-name='Sans 12'
 gtk-theme='adw-gtk3'
+monospace-font-name='Monospace 10.5'
 
 [org/gnome/desktop/privacy]
 remove-old-temp-files=true

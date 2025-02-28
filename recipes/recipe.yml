@@ -62,3 +62,15 @@ modules:
   - type: bling
     install:
       - dconf-update-service
+
+  - type: default-flatpaks
+    system:
+      install:
+        - com.google.Chrome
+        - com.usebottles.bottles
+        - net.nokyan.Resources
+        - org.gnome.Extensions
+        - org.gnome.Loupe
+        - org.gnome.NautilusPreviewer
+        - org.gnome.Showtime
+        - org.gnome.TextEditor
