@@ -1,0 +1,41 @@
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/os/background.jpg'
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('ibus', 'rime')]
+
+[org/gnome/desktop/interface]
+accent-color='pink'
+clock-show-weekday=true
+gtk-theme='adw-gtk3'
+
+[org/gnome/desktop/privacy]
+remove-old-temp-files=true
+remove-old-trash-files=true
+
+[org/gnome/desktop/screensaver]
+picture-uri='file:///usr/share/backgrounds/os/background.jpg'
+
+[org/gnome/mutter]
+experimental-features=['scale-monitor-framebuffer', 'variable-refresh-rate', 'xwayland-native-scaling']
+workspaces-only-on-primary=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-temperature=uint32 4700
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-terminal/']
+volume-step=5
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-terminal]
+binding='<Super>t'
+command='ghostty'
+name='Terminal'
+
+[org/gnome/shell]
+enabled-extensions=@as []
+favorite-apps=['org.gnome.Nautilus.desktop', 'com.google.Chrome.desktop']
