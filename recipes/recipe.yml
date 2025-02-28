@@ -52,6 +52,10 @@ modules:
       - source: system
         destination: /
 
+  - type: script
+    snippets:
+      - dconf update
+
   - type: systemd
     system:
       enabled:
@@ -59,10 +63,6 @@ modules:
     user:
       enabled:
         - gpg-agent.socket
-
-  - type: bling
-    install:
-      - dconf-update-service
 
   - type: default-flatpaks
     system:
