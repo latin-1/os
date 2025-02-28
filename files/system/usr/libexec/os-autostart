@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/7284
+gsettings set org.gnome.desktop.input-sources sources "$(gsettings get org.gnome.desktop.input-sources sources)"

@@ -4,6 +4,9 @@ picture-uri='file:///usr/share/backgrounds/os/background.jpg'
 [org/gnome/desktop/datetime]
 automatic-timezone=true
 
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('ibus', 'rime')]
+
 [org/gnome/desktop/interface]
 accent-color='pink'
 clock-show-weekday=true
