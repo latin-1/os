@@ -36,7 +36,6 @@ modules:
       - scrcpy
       - starship
       - terra-release
-      - vcsh
       - zed-preview
     remove:
       - firefox
