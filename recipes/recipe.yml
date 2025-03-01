@@ -69,10 +69,6 @@ modules:
         - com.google.Chrome
         - com.usebottles.bottles
         - net.nokyan.Resources
-        - org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
-        - org.freedesktop.Platform.VulkanLayer.OBSVkCapture//24.08
-        - org.freedesktop.Platform.VulkanLayer.gamescope//24.08
-        - org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08
         - org.gnome.Calculator
         - org.gnome.Characters
         - org.gnome.Extensions
@@ -84,3 +80,7 @@ modules:
         - org.gnome.TextEditor
         - org.gtk.Gtk3theme.adw-gtk3
         - org.gtk.Gtk3theme.adw-gtk3-dark
+        # - org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
+        # - org.freedesktop.Platform.VulkanLayer.OBSVkCapture//24.08
+        # - org.freedesktop.Platform.VulkanLayer.gamescope//24.08
+        # - org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08
