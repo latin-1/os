@@ -1,5 +1,5 @@
 [org/gnome/Ptyxis]
-default-profile-uuid='os'
+default-profile-uuid='os-toolbox'
 interface-style='system'
 profile-uuids=['os', 'os-toolbox']
 
@@ -55,7 +55,7 @@ volume-step=5
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-terminal]
 binding='<Super>t'
-command='ghostty'
+command='ptyxis --new-window'
 name='Terminal'
 
 [org/gnome/settings-daemon/plugins/power]
