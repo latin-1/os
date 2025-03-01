@@ -77,7 +77,7 @@ modules:
         - org.gnome.Showtime
         - org.gnome.Snapshot
         - org.gnome.TextEditor
-        # - org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
-        # - org.freedesktop.Platform.VulkanLayer.OBSVkCapture//24.08
-        # - org.freedesktop.Platform.VulkanLayer.gamescope//24.08
-        # - org.freedesktop.Platform.VulkanLayer.vkBasalt//24.08
+        # - org.freedesktop.Platform.VulkanLayer.MangoHud
+        # - org.freedesktop.Platform.VulkanLayer.OBSVkCapture
+        # - org.freedesktop.Platform.VulkanLayer.gamescope
+        # - org.freedesktop.Platform.VulkanLayer.vkBasalt
