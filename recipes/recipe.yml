@@ -21,7 +21,6 @@ modules:
       - adobe-source-han-serif-fonts
       - adobe-source-sans-pro-fonts
       - adobe-source-serif-pro-fonts
-      - adw-gtk3-theme
       - android-tools
       - distrobox
       - fish
@@ -78,8 +77,6 @@ modules:
         - org.gnome.Showtime
         - org.gnome.Snapshot
         - org.gnome.TextEditor
-        - org.gtk.Gtk3theme.adw-gtk3
-        - org.gtk.Gtk3theme.adw-gtk3-dark
         # - org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
         # - org.freedesktop.Platform.VulkanLayer.OBSVkCapture//24.08
         # - org.freedesktop.Platform.VulkanLayer.gamescope//24.08

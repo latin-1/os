@@ -11,7 +11,6 @@ sources=[('xkb', 'us'), ('ibus', 'rime')]
 accent-color='pink'
 clock-show-weekday=true
 font-name='Sans 11'
-gtk-theme='adw-gtk3'
 monospace-font-name='Monospace 10.5'
 
 [org/gnome/desktop/privacy]
