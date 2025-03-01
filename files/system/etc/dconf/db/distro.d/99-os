@@ -1,3 +1,20 @@
+[org/gnome/Ptyxis]
+default-profile-uuid='os'
+interface-style='system'
+profile-uuids=['os', 'os-toolbox']
+
+[org/gnome/Ptyxis/Profiles/os]
+label='OS'
+opacity=0.95
+palette='Catppuccin Latte'
+
+[org/gnome/Ptyxis/Profiles/os-toolbox]
+custom-command='bash -c ~/.local/bin/host/x-spawn'
+label='OS Toolbox'
+opacity=0.95
+palette='Catppuccin Latte'
+use-custom-command=true
+
 [org/gnome/desktop/background]
 picture-uri='file:///usr/share/backgrounds/os/background.jpg'
 
