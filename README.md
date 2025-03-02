@@ -1,9 +1,8 @@
 # OS
 
-## System Information
-
 - `hostnamectl`
 - `/var/lib/AccountsService`
+- `chsh --shell /usr/bin/fish`
 
 ## Kernel Parameters
 
