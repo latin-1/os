@@ -34,7 +34,6 @@ modules:
       - openh264
       - scrcpy
       - starship
-      - terra-release
       - vcsh
       - zed-preview
     remove:
