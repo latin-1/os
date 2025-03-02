@@ -25,7 +25,7 @@ modules:
       - distrobox
       - fastfetch
       - fish
-      - google-noto-fonts-all-vf # https://github.com/fedora-silverblue/issue-tracker/issues/592
+      - google-noto-fonts-all
       - gstreamer1-plugin-openh264
       - ibus-rime
       - iosevka-fonts
