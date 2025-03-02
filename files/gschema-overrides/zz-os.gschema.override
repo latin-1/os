@@ -1,0 +1,51 @@
+[org.gnome.Ptyxis]
+interface-style='system'
+
+[org.gnome.Ptyxis.Profile]
+opacity=0.95
+palette='Catppuccin Latte'
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/os/background.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/os/background.jpg'
+
+[org.gnome.desktop.datetime]
+automatic-timezone=true
+
+[org.gnome.desktop.interface]
+accent-color='pink'
+clock-show-weekday=true
+font-name='Sans 11'
+monospace-font-name='Monospace 10.5'
+
+[org.gnome.desktop.privacy]
+remove-old-temp-files=true
+remove-old-trash-files=true
+
+[org.gnome.desktop.screensaver]
+lock-delay=uint32 60
+
+[org.gnome.desktop.session]
+idle-delay=uint32 600
+
+[org.gnome.mutter]
+experimental-features=['scale-monitor-framebuffer', 'variable-refresh-rate', 'xwayland-native-scaling']
+workspaces-only-on-primary=false
+
+[org.gnome.settings-daemon.plugins.color]
+night-light-enabled=true
+night-light-temperature=uint32 4700
+
+[org.gnome.settings-daemon.plugins.media-keys]
+volume-step=5
+
+[org.gnome.settings-daemon.plugins.power]
+ambient-enabled=false
+power-button-action='nothing'
+
+[org.gnome.shell]
+enabled-extensions=@as []
+favorite-apps=['org.gnome.Nautilus.desktop', 'com.google.Chrome.desktop']
+
+[org.gnome.system.location]
+enabled=true
