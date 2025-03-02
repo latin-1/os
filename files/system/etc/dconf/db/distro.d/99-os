@@ -1,22 +1,6 @@
-[org/gnome/Ptyxis]
-default-profile-uuid='os-toolbox'
-interface-style='system'
-profile-uuids=['os', 'os-toolbox']
-
-[org/gnome/Ptyxis/Profiles/os-toolbox]
-custom-command='bash -c ~/.local/bin/host/x-spawn'
-label='OS Toolbox'
-opacity=0.95
-palette='Catppuccin Latte'
-use-custom-command=true
-
-[org/gnome/Ptyxis/Profiles/os]
-label='OS'
-opacity=0.95
-palette='Catppuccin Latte'
-
 [org/gnome/desktop/background]
 picture-uri='file:///usr/share/backgrounds/os/background.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/os/background.jpg'
 
 [org/gnome/desktop/datetime]
 automatic-timezone=true
@@ -37,6 +21,7 @@ remove-old-trash-files=true
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 60
 picture-uri='file:///usr/share/backgrounds/os/background.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/os/background.jpg'
 
 [org/gnome/desktop/session]
 idle-delay=uint32 600

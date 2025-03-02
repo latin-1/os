@@ -49,6 +49,8 @@ modules:
       - source: system
         destination: /
 
+  - type: gschema-overrides
+
   - type: systemd
     system:
       enabled:
