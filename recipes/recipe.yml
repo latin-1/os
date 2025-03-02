@@ -23,8 +23,9 @@ modules:
       - adobe-source-serif-pro-fonts
       - android-tools
       - distrobox
+      - fastfetch
       - fish
-      - google-noto-fonts-all
+      - google-noto-fonts-all-vf # https://github.com/fedora-silverblue/issue-tracker/issues/592
       - gstreamer1-plugin-openh264
       - ibus-rime
       - iosevka-fonts
@@ -34,6 +35,7 @@ modules:
       - scrcpy
       - starship
       - terra-release
+      - vcsh
       - zed-preview
     remove:
       - firefox
