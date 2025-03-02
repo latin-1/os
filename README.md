@@ -1,5 +1,10 @@
 # OS
 
+## System Information
+
+- `hostnamectl`
+- `/var/lib/AccountsService`
+
 ## Kernel Parameters
 
 ### AMDGPU
