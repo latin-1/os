@@ -1,13 +1,5 @@
 # OS
 
-## Boot Loader
-
-> https://github.com/coreos/bootupd/issues/746
-
-```sh
-sudo grub2-editenv - set menu_auto_hide=1
-```
-
 ## Kernel Parameters
 
 ### AMDGPU
