@@ -49,3 +49,6 @@ favorite-apps=['org.gnome.Nautilus.desktop', 'com.google.Chrome.desktop']
 
 [org.gnome.system.location]
 enabled=true
+
+[org.gtk.Settings.FileChooser]
+sort-directories-first=true
