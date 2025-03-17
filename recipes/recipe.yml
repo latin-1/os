@@ -20,7 +20,6 @@ modules:
       - adobe-source-han-serif-fonts
       - adobe-source-sans-pro-fonts
       - adobe-source-serif-pro-fonts
-      - distrobox
       - fastfetch
       - fish
       - google-noto-fonts-all
