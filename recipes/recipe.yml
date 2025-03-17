@@ -20,7 +20,6 @@ modules:
       - adobe-source-han-serif-fonts
       - adobe-source-sans-pro-fonts
       - adobe-source-serif-pro-fonts
-      - android-tools
       - distrobox
       - fastfetch
       - fish
@@ -50,9 +49,6 @@ modules:
   - type: gschema-overrides
 
   - type: systemd
-    system:
-      enabled:
-        - adb.service
     user:
       enabled:
         - gpg-agent.socket
