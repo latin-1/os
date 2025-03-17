@@ -40,10 +40,6 @@ modules:
       - firefox-langpacks
       - noopenh264
 
-  - type: script
-    snippets:
-      - rm -rf /etc/skel && mkdir /etc/skel
-
   - type: files
     files:
       - source: system
