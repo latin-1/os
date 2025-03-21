@@ -32,6 +32,7 @@ modules:
       - neovim
       - openh264
       - starship
+      - steam-devices
       - zed-preview
     remove:
       - firefox
