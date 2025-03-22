@@ -45,7 +45,7 @@ power-button-action='nothing'
 
 [org.gnome.shell]
 enabled-extensions=@as []
-favorite-apps=['org.gnome.Nautilus.desktop', 'com.google.Chrome.desktop']
+favorite-apps=['com.google.Chrome.desktop', 'org.gnome.Nautilus.desktop']
 
 [org.gnome.system.location]
 enabled=true
