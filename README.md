@@ -27,6 +27,7 @@ flatpak update
 ```sh
 mkdir -p ~/.config/fontconfig/conf.d
 cp /usr/share/fontconfig/conf.avail/99-os.conf ~/.config/fontconfig/conf.d/99-os.conf
+sudo flatpak override --system --filesystem=xdg-config/fontconfig:ro
 ```
 
 ### Additional Runtimes
