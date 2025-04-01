@@ -16,7 +16,7 @@ rpm-ostree --append-if-missing=amdgpu.dcdebugmask=0x10
 > https://github.com/bottlesdevs/Bottles/issues/2189#issuecomment-1354412658
 
 ```sh
-flatpak config --set extra-languages ja_JP.UTF-8
+flatpak config --set extra-languages 'zh_CN.UTF-8;ja_JP.UTF-8'
 flatpak update
 ```
 
