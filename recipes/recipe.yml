@@ -22,7 +22,6 @@ modules:
       - adobe-source-serif-pro-fonts
       - android-tools
       - android-udev-rules
-      - fastfetch
       - fish
       - google-noto-fonts-all
       - gstreamer1-plugin-openh264
@@ -31,13 +30,19 @@ modules:
       - iosevka-term-fonts
       - neovim
       - openh264
-      - starship
       - steam-devices
-      - zed-preview
     remove:
       - firefox
       - firefox-langpacks
       - noopenh264
+
+  - type: rpm-ostree
+    install:
+      - fastfetch
+      - p7zip
+      - unar
+      - wimlib-utils
+      - zed-preview
 
   - type: script
     snippets:
