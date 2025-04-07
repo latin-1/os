@@ -39,7 +39,6 @@ modules:
   - type: rpm-ostree
     install:
       - fastfetch
-      - p7zip
       - unar
       - wimlib-utils
       - zed-preview
@@ -79,7 +78,3 @@ modules:
         - org.gnome.Showtime
         - org.gnome.Snapshot
         - org.gnome.TextEditor
-        # - org.freedesktop.Platform.VulkanLayer.MangoHud
-        # - org.freedesktop.Platform.VulkanLayer.OBSVkCapture
-        # - org.freedesktop.Platform.VulkanLayer.gamescope
-        # - org.freedesktop.Platform.VulkanLayer.vkBasalt
