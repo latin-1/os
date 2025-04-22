@@ -13,7 +13,6 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/latin-1/os-packages/repo/fedora-%OS_VERSION%/latin-1-os-packages-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/repo/fedora-%OS_VERSION%/peterwu-iosevka-fedora-%OS_VERSION%.repo
-      - https://download.opensuse.org/repositories/shells:fish:release:4/Fedora_%OS_VERSION%/shells:fish:release:4.repo
       - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
     install:
       - adobe-source-han-sans-fonts
