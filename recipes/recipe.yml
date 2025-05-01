@@ -37,7 +37,6 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
-        - noopenh264
       auto-remove: false
 
   - type: dnf
