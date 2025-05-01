@@ -22,15 +22,11 @@ modules:
         - adobe-source-han-serif-fonts
         - adobe-source-sans-pro-fonts
         - adobe-source-serif-pro-fonts
-        - android-tools
-        - android-udev-rules
-        - fish
         - google-noto-fonts-all
         - gstreamer1-plugin-openh264
         - ibus-rime
         - iosevka-fonts
         - iosevka-term-fonts
-        - neovim
         - openh264
         - steam-devices
     remove:
@@ -40,7 +36,11 @@ modules:
   - type: dnf
     install:
       packages:
+        - android-tools
+        - android-udev-rules
         - fastfetch
+        - fish
+        - neovim
         - unar
         - wimlib-utils
         - zed-preview
