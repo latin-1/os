@@ -9,43 +9,38 @@ image-version: 42
 modules:
   - type: signing
 
-  - type: dnf
+  - type: rpm-ostree
     repos:
-      copr:
-        - latin-1/os-packages
-        - peterwu/iosevka
-      files:
-        - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
+      - https://copr.fedorainfracloud.org/coprs/latin-1/os-packages/repo/fedora-%OS_VERSION%/latin-1-os-packages-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/peterwu/iosevka/repo/fedora-%OS_VERSION%/peterwu-iosevka-fedora-%OS_VERSION%.repo
+      - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
     install:
-      packages:
-        - adobe-source-han-sans-fonts
-        - adobe-source-han-serif-fonts
-        - adobe-source-sans-pro-fonts
-        - adobe-source-serif-pro-fonts
-        - android-tools
-        - android-udev-rules
-        - fish
-        - google-noto-fonts-all
-        - gstreamer1-plugin-openh264
-        - ibus-rime
-        - iosevka-fonts
-        - iosevka-term-fonts
-        - neovim
-        - openh264
-        - steam-devices
+      - adobe-source-han-sans-fonts
+      - adobe-source-han-serif-fonts
+      - adobe-source-sans-pro-fonts
+      - adobe-source-serif-pro-fonts
+      - android-tools
+      - android-udev-rules
+      - fish
+      - google-noto-fonts-all
+      - gstreamer1-plugin-openh264
+      - ibus-rime
+      - iosevka-fonts
+      - iosevka-term-fonts
+      - neovim
+      - openh264
+      - steam-devices
     remove:
-      packages:
-        - firefox
-        - firefox-langpacks
-        - noopenh264
+      - firefox
+      - firefox-langpacks
+      - noopenh264
 
-  - type: dnf
+  - type: rpm-ostree
     install:
-      packages:
-        - fastfetch
-        - unar
-        - wimlib-utils
-        - zed-preview
+      - fastfetch
+      - unar
+      - wimlib-utils
+      - zed-preview
 
   - type: script
     snippets:
