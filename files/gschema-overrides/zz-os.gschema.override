@@ -29,8 +29,10 @@ lock-delay=uint32 60
 idle-delay=uint32 600
 
 [org.gnome.mutter]
-experimental-features=['scale-monitor-framebuffer', 'variable-refresh-rate', 'xwayland-native-scaling']
 workspaces-only-on-primary=false
+
+[org.gnome.mutter:GNOME]
+experimental-features=['scale-monitor-framebuffer', 'variable-refresh-rate', 'xwayland-native-scaling']
 
 [org.gnome.settings-daemon.plugins.color]
 night-light-enabled=true
