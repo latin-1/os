@@ -36,8 +36,6 @@ modules:
     remove:
       packages:
         - firefox
-        - firefox-langpacks
-      auto-remove: false
 
   - type: dnf
     install:
