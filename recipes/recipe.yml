@@ -41,8 +41,10 @@ modules:
         - fastfetch
         - fish
         - neovim
+        - starship
         - unar
         - wimlib-utils
+        - yadm
         - zed-preview
     group-install:
       packages:
