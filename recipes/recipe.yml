@@ -38,8 +38,10 @@ modules:
       packages:
         - android-tools
         - android-udev-rules
+        - bat
         - fastfetch
         - fish
+        - git-delta
         - neovim
         - starship
         - unar
