@@ -11,11 +11,11 @@ modules:
 
   - type: dnf
     repos:
+      files:
+        - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
       copr:
         - latin-1/os-packages
         - peterwu/iosevka
-      files:
-        - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
     install:
       packages:
         - adobe-source-han-sans-fonts
