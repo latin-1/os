@@ -39,6 +39,7 @@ modules:
         - android-tools
         - android-udev-rules
         - bat
+        - eza
         - fastfetch
         - fish
         - git-delta
