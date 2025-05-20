@@ -41,9 +41,11 @@ modules:
         - bat
         - eza
         - fastfetch
+        - fd-find
         - fish
         - git-delta
         - neovim
+        - ripgrep
         - starship
         - unar
         - wimlib-utils
