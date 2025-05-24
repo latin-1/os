@@ -47,6 +47,7 @@ modules:
         - neovim
         - ripgrep
         - starship
+        - typst
         - unar
         - wimlib-utils
         - yadm
