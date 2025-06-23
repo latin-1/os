@@ -7,9 +7,9 @@ base-image: quay.io/fedora/fedora-silverblue
 image-version: 42
 
 modules:
-  - type: signing
+  - type: signing@v1
 
-  - type: dnf
+  - type: dnf@v1
     repos:
       files:
         - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
@@ -33,7 +33,7 @@ modules:
       packages:
         - firefox
 
-  - type: dnf
+  - type: dnf@v1
     install:
       packages:
         - android-tools
@@ -56,27 +56,27 @@ modules:
       packages:
         - development-tools
 
-  - type: script
+  - type: script@v1
     snippets:
       - rm -rf /etc/skel && mkdir /etc/skel
 
-  - type: files
+  - type: files@v1
     files:
       - source: system
         destination: /
 
   - type: gschema-overrides
 
-  - type: systemd
+  - type: systemd@v1
     user:
       enabled:
         - gpg-agent.socket
 
-  - type: bling
+  - type: bling@v1
     install:
       - dconf-update-service
 
-  - type: default-flatpaks
+  - type: default-flatpaks@v1
     system:
       install:
         - com.google.Chrome
