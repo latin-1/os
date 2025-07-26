@@ -67,11 +67,6 @@ modules:
 
   - type: gschema-overrides
 
-  - type: systemd@v1
-    user:
-      enabled:
-        - gpg-agent.socket
-
   - type: bling@v1
     install:
       - dconf-update-service
