@@ -76,18 +76,20 @@ modules:
     install:
       - dconf-update-service
 
-  - type: default-flatpaks@v1
-    system:
-      install:
-        - com.google.Chrome
-        - com.usebottles.bottles
-        - net.nokyan.Resources
-        - org.gnome.Calculator
-        - org.gnome.Characters
-        - org.gnome.Extensions
-        - org.gnome.Loupe
-        - org.gnome.NautilusPreviewer
-        - org.gnome.Papers
-        - org.gnome.Showtime
-        - org.gnome.Snapshot
-        - org.gnome.TextEditor
+  - type: default-flatpaks@v2
+    configurations:
+      - scope: system
+        install:
+          - com.google.Chrome
+          - com.usebottles.bottles
+          - net.nokyan.Resources
+          - org.gnome.Calculator
+          - org.gnome.Characters
+          - org.gnome.Extensions
+          - org.gnome.Loupe
+          - org.gnome.NautilusPreviewer
+          - org.gnome.Papers
+          - org.gnome.Showtime
+          - org.gnome.Snapshot
+          - org.gnome.TextEditor
+        notify: false
