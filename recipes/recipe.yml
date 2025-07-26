@@ -32,6 +32,7 @@ modules:
     remove:
       packages:
         - firefox
+        - gnome-system-monitor
 
   - type: dnf@v1
     install:
