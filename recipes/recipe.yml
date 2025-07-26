@@ -77,6 +77,7 @@ modules:
         install:
           - com.google.Chrome
           - com.usebottles.bottles
+          - com.valvesoftware.Steam
           - net.nokyan.Resources
           - org.gnome.Calculator
           - org.gnome.Characters
@@ -87,4 +88,12 @@ modules:
           - org.gnome.Showtime
           - org.gnome.Snapshot
           - org.gnome.TextEditor
+        notify: false
+      - scope: system
+        repo:
+          name: flathub-beta
+          title: Flathub Beta
+          url: https://dl.flathub.org/beta-repo/flathub-beta.flatpakrepo
+        install:
+          - com.valvesoftware.Steam
         notify: false
