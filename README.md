@@ -6,7 +6,6 @@
 
 ```sh
 rpm-ostree kargs --append-if-missing=amdgpu.abmlevel=0
-rpm-ostree kargs --append-if-missing=amdgpu.dcdebugmask=0x10
 ```
 
 ## Flatpak
