@@ -78,7 +78,6 @@ modules:
           - com.google.Chrome
           - com.usebottles.bottles
           - com.valvesoftware.Steam
-          - io.github.celluloid_player.Celluloid
           - net.nokyan.Resources
           - org.gnome.Calculator
           - org.gnome.Characters
