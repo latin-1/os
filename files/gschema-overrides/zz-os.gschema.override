@@ -17,6 +17,7 @@ accent-color='pink'
 clock-show-weekday=true
 font-name='Sans 11'
 monospace-font-name='Monospace 10.5'
+show-battery-percentage=true
 
 [org.gnome.desktop.privacy]
 remove-old-temp-files=true
