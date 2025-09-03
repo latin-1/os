@@ -40,12 +40,15 @@ modules:
         - android-tools
         - android-udev-rules
         - bat
+        - clang
         - eza
         - fastfetch
         - fd-find
         - fish
         - git-delta
+        - llvm
         - neovim
+        - python3-ramalama
         - ripgrep
         - starship
         - typst
