@@ -22,6 +22,7 @@ modules:
         - adobe-source-han-serif-fonts
         - adobe-source-sans-pro-fonts
         - adobe-source-serif-pro-fonts
+        - android-udev-rules
         - google-noto-fonts-all
         - gstreamer1-plugin-openh264
         - ibus-rime
@@ -38,7 +39,6 @@ modules:
     install:
       packages:
         - android-tools
-        - android-udev-rules
         - bat
         - clang
         - eza
