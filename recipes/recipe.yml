@@ -36,9 +36,6 @@ modules:
         - gnome-system-monitor
 
   - type: dnf@v1
-    repos:
-      copr:
-        - zeno/scrcpy
     install:
       packages:
         - android-tools
