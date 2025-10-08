@@ -52,6 +52,7 @@ modules:
         - ripgrep
         - scrcpy
         - starship
+        - tokei
         - typst
         - unar
         - wimlib-utils
