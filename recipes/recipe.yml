@@ -46,6 +46,7 @@ modules:
         - fd-find
         - fish
         - git-delta
+        - git-filter-repo
         - llvm
         - neovim
         - python3-ramalama
