@@ -4,7 +4,7 @@ name: os
 description: OS
 
 base-image: quay.io/fedora/fedora-silverblue
-image-version: 42
+image-version: 43
 
 modules:
   - type: signing@v1
