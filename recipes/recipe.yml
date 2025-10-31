@@ -110,3 +110,4 @@ modules:
       - scope: system
         install:
           - org.freedesktop.Platform.VulkanLayer.gamescope//25.08
+        notify: false
