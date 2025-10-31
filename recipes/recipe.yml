@@ -107,3 +107,6 @@ modules:
         install:
           - com.valvesoftware.Steam
         notify: false
+      - scope: system
+        install:
+          - org.freedesktop.Platform.VulkanLayer.gamescope//25.08

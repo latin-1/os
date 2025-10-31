@@ -28,14 +28,3 @@ mkdir -p ~/.config/fontconfig/conf.d
 cp /usr/share/fontconfig/conf.avail/99-os.conf ~/.config/fontconfig/conf.d/99-os.conf
 sudo flatpak override --system --filesystem=xdg-config/fontconfig:ro
 ```
-
-### Additional Runtimes
-
-> https://github.com/blue-build/modules/pull/142#issuecomment-1962458757
-
-```sh
-flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud
-flatpak install org.freedesktop.Platform.VulkanLayer.OBSVkCapture
-flatpak install org.freedesktop.Platform.VulkanLayer.gamescope
-flatpak install org.freedesktop.Platform.VulkanLayer.vkBasalt
-```
