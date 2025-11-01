@@ -51,7 +51,6 @@ modules:
         - neovim
         - python3-ramalama
         - ripgrep
-        - rpmrebuild
         - scrcpy
         - starship
         - tokei
