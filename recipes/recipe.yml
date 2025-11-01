@@ -71,7 +71,7 @@ modules:
       - source: system
         destination: /
 
-  - type: gschema-overrides
+  - type: gschema-overrides@v1
 
   - type: bling@v1
     install:
