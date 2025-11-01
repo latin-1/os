@@ -40,16 +40,15 @@ modules:
       packages:
         - android-tools
         - bat
-        - clang
         - eza
         - fastfetch
         - fd-find
         - fish
         - git-delta
+        - git-extras
         - git-filter-repo
-        - llvm
         - neovim
-        - python3-ramalama
+        - ollama
         - ripgrep
         - scrcpy
         - starship
