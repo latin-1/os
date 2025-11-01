@@ -48,7 +48,6 @@ modules:
         - git-extras
         - git-filter-repo
         - neovim
-        - ollama
         - ripgrep
         - scrcpy
         - starship
