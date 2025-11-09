@@ -81,6 +81,7 @@ modules:
       - scope: system
         install:
           - com.discordapp.Discord
+          - com.github.Matoking.protontricks
           - com.google.Chrome
           - com.spotify.Client
           - com.usebottles.bottles
