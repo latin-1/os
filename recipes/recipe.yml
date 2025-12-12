@@ -9,10 +9,13 @@ image-version: 43
 modules:
   - type: signing@v1
 
+  - type: script@v1
+    snippets:
+      - rpm --import "https://repos.fyralabs.com/terra$OS_VERSION/key.asc"
+      - dnf install --repofrompath="terra,https://repos.fyralabs.com/terra$OS_VERSION" terra-release
+
   - type: dnf@v1
     repos:
-      files:
-        - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
       copr:
         - latin-1/os-packages
         - peterwu/iosevka
