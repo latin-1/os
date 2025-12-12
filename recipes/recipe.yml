@@ -13,6 +13,8 @@ modules:
     repos:
       files:
         - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f%OS_VERSION%/anda/terra/release/terra.repo
+      keys:
+        - https://repos.fyralabs.com/terra%OS_VERSION%/key.asc
       copr:
         - latin-1/os-packages
         - peterwu/iosevka
