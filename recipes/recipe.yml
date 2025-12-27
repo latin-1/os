@@ -18,6 +18,7 @@ modules:
     repos:
       copr:
         - latin-1/os-packages
+        - peterwu/iosevka
     install:
       packages:
         - adobe-source-han-sans-fonts
