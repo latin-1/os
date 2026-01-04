@@ -26,6 +26,7 @@ modules:
         - adobe-source-serif-pro-fonts
         - android-udev-rules
         - belleve-invis-iosevka-fonts
+        - ghostty
         - google-noto-fonts-all
         - gstreamer1-plugin-openh264
         - ibus-rime
