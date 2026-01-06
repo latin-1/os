@@ -109,4 +109,5 @@ modules:
       - scope: system
         install:
           - org.freedesktop.Platform.VulkanLayer.gamescope//25.08
+          - org.freedesktop.Platform.VulkanLayer.MangoHud//25.08
         notify: false
