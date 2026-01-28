@@ -1,3 +1,6 @@
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-screenshot/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-terminal/']
+
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-screenshot]
 binding='<Control>Print'
 command='flatpak run be.alexandervanhee.gradia --screenshot=INTERACTIVE'
