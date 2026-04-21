@@ -99,6 +99,7 @@ modules:
           - org.gnome.Showtime
           - org.gnome.Snapshot
           - org.gnome.TextEditor
+          - rs.ruffle.Ruffle
         notify: false
       - scope: system
         repo:
