@@ -26,12 +26,14 @@ modules:
         - adobe-source-serif-pro-fonts
         - android-udev-rules
         - belleve-invis-iosevka-fonts
+        - file-roller
         - ghostty
         - google-noto-fonts-all
         - gstreamer1-plugin-openh264
         - ibus-rime
         - openh264
         - steam-devices
+        - sushi
     remove:
       packages:
         - firefox
@@ -94,7 +96,6 @@ modules:
           - org.gnome.Characters
           - org.gnome.Extensions
           - org.gnome.Loupe
-          - org.gnome.NautilusPreviewer
           - org.gnome.Papers
           - org.gnome.Showtime
           - org.gnome.Snapshot
