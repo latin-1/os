@@ -11,8 +11,8 @@ modules:
 
   - type: script@v1
     snippets:
-      - rpm --import "https://repos.fyralabs.com/terra$OS_VERSION/key.asc"
-      - dnf install --repofrompath="terra,https://repos.fyralabs.com/terra$OS_VERSION" terra-release --assumeyes
+      - rpm --import "https://repos.fyralabs.com/terra${OS_VERSION}/key.asc"
+      - dnf install --repofrompath="terra,https://repos.fyralabs.com/terra${OS_VERSION}" terra-release --assumeyes
 
   - type: dnf@v1
     repos:
