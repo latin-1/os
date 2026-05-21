@@ -88,8 +88,8 @@ modules:
           - com.google.Chrome
           - com.usebottles.bottles
           - com.valvesoftware.Steam
+          - com.vysp3r.ProtonPlus
           - io.github.nozwock.Packet
-          - net.davidotek.pupgui2
           - net.nokyan.Resources
           - org.gnome.Calculator
           - org.gnome.Characters
