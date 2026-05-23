@@ -76,7 +76,7 @@ modules:
 
   - type: systemd@v1
     system:
-      enable:
+      enabled:
         - keyd.service
 
   - type: gschema-overrides@v1
