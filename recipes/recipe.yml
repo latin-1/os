@@ -30,6 +30,7 @@ modules:
         - google-noto-fonts-all
         - gstreamer1-plugin-openh264
         - ibus-rime
+        - keyd
         - openh264
         - steam-devices
         - sushi
@@ -72,6 +73,11 @@ modules:
     files:
       - source: system
         destination: /
+
+  - type: systemd@v1
+    system:
+      enable:
+        - keyd.service
 
   - type: gschema-overrides@v1
 
