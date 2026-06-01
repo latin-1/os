@@ -41,7 +41,7 @@ ambient-enabled=false
 power-button-action='nothing'
 
 [org.gnome.shell]
-enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=@as []
 favorite-apps=['com.google.Chrome.desktop', 'org.gnome.Nautilus.desktop']
 
 [org.gnome.system.location]
