@@ -20,7 +20,7 @@ modules:
         - latin-1/os-packages
         - latin-1/os-packages-f44
     replace:
-      - from-repo: copr:copr.fedorainfracloud.org:latin-1/os-packages-f44
+      - from-repo: copr:copr.fedorainfracloud.org:latin-1:os-packages-f44
         packages:
           - kernel
           - kernel-core
