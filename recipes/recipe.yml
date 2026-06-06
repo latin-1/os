@@ -18,6 +18,15 @@ modules:
     repos:
       copr:
         - latin-1/os-packages
+        - latin-1/os-packages-f44
+    replace:
+      - from-repo: copr:copr.fedorainfracloud.org:latin-1/os-packages-f44
+        packages:
+          - kernel
+          - kernel-core
+          - kernel-modules
+          - kernel-modules-core
+          - kernel-modules-extra
     install:
       packages:
         - adobe-source-han-sans-fonts
