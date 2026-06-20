@@ -1,3 +1,6 @@
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('ibus', 'rime')]
+
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-screenshot/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/os-terminal/']
 
