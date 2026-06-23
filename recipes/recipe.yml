@@ -48,7 +48,13 @@ modules:
         - sushi
     remove:
       packages:
+        - fedora-bookmarks
+        - fedora-chromium-config
+        - fedora-chromium-config-gnome
+        - fedora-flathub-remote
         - fedora-third-party
+        - fedora-workstation-backgrounds
+        - fedora-workstation-repositories
         - firefox
         - gnome-system-monitor
 
