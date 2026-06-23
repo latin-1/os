@@ -48,6 +48,7 @@ modules:
         - sushi
     remove:
       packages:
+        - fedora-third-party
         - firefox
         - gnome-system-monitor
 
