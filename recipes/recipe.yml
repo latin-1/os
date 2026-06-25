@@ -86,7 +86,7 @@ modules:
 
   - type: script@v1
     snippets:
-      - rm -rf /etc/skel && mkdir /etc/skel
+      - find /etc/skel -mindepth 1 -delete
 
   - type: files@v1
     files:
