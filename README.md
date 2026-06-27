@@ -8,6 +8,14 @@
 rpm-ostree kargs --append-if-missing=amdgpu.abmlevel=0
 ```
 
+## GNOME
+
+> https://gitlab.gnome.org/GNOME/gnome-control-center/-/work_items/3742
+
+```sh
+gdctl set --logical-monitor --monitor eDP-1 --primary --color-mode sdr-native
+```
+
 ## Flatpak
 
 ### Locales
@@ -15,7 +23,7 @@ rpm-ostree kargs --append-if-missing=amdgpu.abmlevel=0
 > https://github.com/bottlesdevs/Bottles/issues/2189#issuecomment-1354412658
 
 ```sh
-flatpak config --set extra-languages 'zh_CN.UTF-8;ja_JP.UTF-8'
+flatpak config --set extra-languages 'zh_CN.UTF-8;zh_HK.UTF-8;zh_TW.UTF-8;ja_JP.UTF-8'
 flatpak update
 ```
 
