@@ -61,6 +61,7 @@ modules:
   - type: dnf@v1
     install:
       packages:
+        - 7zip
         - android-tools
         - bat
         - eza
@@ -79,6 +80,7 @@ modules:
         - unar
         - wimlib-utils
         - yadm
+        - yubikey-manager
         - zed-preview
     group-install:
       packages:
