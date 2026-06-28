@@ -8,6 +8,12 @@
 rpm-ostree kargs --append-if-missing=amdgpu.abmlevel=0
 ```
 
+## System
+
+```sh
+timedatectl set-ntp true
+```
+
 ## GNOME
 
 > https://gitlab.gnome.org/GNOME/gnome-control-center/-/work_items/3742
