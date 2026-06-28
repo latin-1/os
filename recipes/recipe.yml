@@ -123,6 +123,7 @@ modules:
           - org.gnome.Extensions
           - org.gnome.Loupe
           - org.gnome.Papers
+          - org.gnome.PowerStats
           - org.gnome.Showtime
           - org.gnome.Snapshot
           - org.gnome.TextEditor
