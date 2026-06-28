@@ -1,6 +1,6 @@
 # OS
 
-## Kernel Parameters
+## Kernel
 
 ### AMDGPU
 
@@ -10,11 +10,13 @@ rpm-ostree kargs --append-if-missing=amdgpu.abmlevel=0
 
 ## System
 
+### Date & Time
+
 ```sh
 timedatectl set-ntp true
 ```
 
-## GNOME
+### Display
 
 > https://gitlab.gnome.org/GNOME/gnome-control-center/-/work_items/3742
 
