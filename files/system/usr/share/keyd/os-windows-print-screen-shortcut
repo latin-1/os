@@ -1,2 +1,2 @@
 [main]
-leftmeta+leftshift+s = sysrq
+meta+shift+s = sysrq

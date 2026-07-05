@@ -1,2 +1,2 @@
 [main]
-leftmeta+leftshift+f23 = rightcontrol
+meta+shift+f23 = layer(control)
