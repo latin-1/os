@@ -9,9 +9,6 @@ palette='Catppuccin Latte'
 picture-uri='file:///usr/share/backgrounds/os/background.jpg'
 picture-uri-dark='file:///usr/share/backgrounds/os/background.jpg'
 
-[org.gnome.desktop.datetime]
-automatic-timezone=true
-
 [org.gnome.desktop.interface]
 accent-color='pink'
 clock-show-weekday=true
@@ -39,6 +36,7 @@ volume-step=5
 [org.gnome.settings-daemon.plugins.power]
 ambient-enabled=false
 power-button-action='nothing'
+power-saver-profile-on-low-battery=false
 
 [org.gnome.shell]
 enabled-extensions=@as []
