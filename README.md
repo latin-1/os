@@ -21,7 +21,7 @@ timedatectl set-ntp true
 > https://gitlab.gnome.org/GNOME/gnome-control-center/-/work_items/3742
 
 ```sh
-gdctl set --logical-monitor --monitor eDP-1 --primary --color-mode sdr-native
+gdctl set --persistent --logical-monitor --monitor eDP-1 --primary --color-mode sdr-native
 ```
 
 ## Flatpak
