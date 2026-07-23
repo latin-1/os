@@ -121,6 +121,7 @@ modules:
           - net.nokyan.Resources
           - org.gnome.Calculator
           - org.gnome.Characters
+          - org.gnome.Decibels
           - org.gnome.Extensions
           - org.gnome.Loupe
           - org.gnome.Papers
