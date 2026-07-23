@@ -1,5 +1,9 @@
 # OS
 
+```sh
+sudo bluebuild generate-iso --iso-name OS.iso --variant silverblue --secure-boot-url '' --enrollment-password '' image ghcr.io/latin-1/os
+```
+
 ## Kernel
 
 ### AMDGPU
