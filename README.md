@@ -14,6 +14,12 @@ rpm-ostree kargs --append-if-missing=amdgpu.abmlevel=0
 
 ## System
 
+### Shell
+
+```sh
+chsh --shell /usr/bin/fish
+```
+
 ### Date & Time
 
 ```sh
