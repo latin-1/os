@@ -36,15 +36,6 @@ gdctl set --persistent --logical-monitor --monitor eDP-1 --primary --color-mode 
 
 ## Flatpak
 
-### Locales
-
-> https://github.com/bottlesdevs/Bottles/issues/2189#issuecomment-1354412658
-
-```sh
-flatpak config --set extra-languages 'zh_CN.UTF-8;zh_HK.UTF-8;zh_TW.UTF-8;ja_JP.UTF-8'
-flatpak update
-```
-
 ### Fonts
 
 > https://github.com/flatpak/flatpak/issues/1563
