@@ -63,6 +63,7 @@ modules:
         - 7zip
         - android-tools
         - bat
+        - beets
         - eza
         - fastfetch
         - fd-find
