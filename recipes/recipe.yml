@@ -12,7 +12,7 @@ modules:
   - type: script@v1
     snippets:
       - rpm --import "https://repos.fyralabs.com/terra${OS_VERSION}/key.asc"
-      - dnf install --repofrompath="terra,https://repos.fyralabs.com/terra${OS_VERSION}" terra-release --assumeyes
+      - dnf install --repofrompath="terra,https://repos.fyralabs.com/terra${OS_VERSION}" terra-release terra-release-extras --assumeyes
 
   - type: dnf@v1
     repos:
@@ -78,6 +78,7 @@ modules:
         - tokei
         - typst
         - unar
+        - unrar
         - wimlib-utils
         - yadm
         - yubikey-manager
