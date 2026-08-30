@@ -79,11 +79,13 @@ modules:
         - tokei
         - typst
         - unar
-        - unrar
         - wimlib-utils
         - yadm
         - yubikey-manager
         - zed-preview
+        - repo: terra-extras
+          packages:
+            - unrar
     group-install:
       packages:
         - development-tools
