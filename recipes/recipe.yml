@@ -43,6 +43,7 @@ modules:
         - libblockdev-smartmontools
         - ntsync-autoload
         - openh264
+        - python3-icoextract
         - steam-devices
         - sushi
     remove:
