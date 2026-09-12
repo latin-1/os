@@ -32,7 +32,7 @@ modules:
         - libblockdev-smartmontools
         - ntsync-autoload
         - openh264
-        - python3-icoextract
+        - python3-icoextract # For exe-thumbnailer
         - steam-devices
     remove:
       packages:
@@ -45,6 +45,7 @@ modules:
         - fedora-workstation-repositories
         - firefox
         - gnome-system-monitor
+        - totem-video-thumbnailer # https://forge.fedoraproject.org/atomic-desktops/tracker/issues/129
 
   - type: dnf@v1
     install:
