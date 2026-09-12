@@ -57,6 +57,7 @@ modules:
         - fastfetch
         - fd-find
         - fish
+        - gh
         - git-delta
         - git-extras
         - git-filter-repo
