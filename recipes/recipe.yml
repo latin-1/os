@@ -34,7 +34,6 @@ modules:
         - openh264
         - python3-icoextract
         - steam-devices
-        - sushi
     remove:
       packages:
         - fedora-bookmarks
@@ -117,6 +116,7 @@ modules:
           - org.gnome.Decibels
           - org.gnome.Extensions
           - org.gnome.Loupe
+          - org.gnome.NautilusPreviewer
           - org.gnome.Papers
           - org.gnome.PowerStats
           - org.gnome.Showtime
