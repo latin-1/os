@@ -44,6 +44,7 @@ modules:
         - fedora-workstation-backgrounds
         - fedora-workstation-repositories
         - firefox
+        - gnome-shell-extension-logo-menu
         - gnome-system-monitor
 
   - type: dnf@v1
