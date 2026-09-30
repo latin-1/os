@@ -61,11 +61,15 @@ modules:
         - git-delta
         - git-extras
         - git-filter-repo
+        - igt-gpu-tools
         - innoextract
         - neovim
+        - perf
         - ripgrep
         - scrcpy
         - starship
+        - strace
+        - sysprof
         - tokei
         - typst
         - unar
