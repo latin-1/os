@@ -6,6 +6,14 @@ sudo bluebuild generate-iso --iso-name OS.iso --variant silverblue --secure-boot
 
 ## Kernel
 
+### Btrfs
+
+> https://discussion.fedoraproject.org/t/root-mount-options-are-ignored-in-fedora-atomic-desktops-42-and-later/148562
+
+```sh
+sudo rpm-ostree kargs --delete=rootflags=subvol=root --append=rootflags=subvol=root,compress=zstd:1
+```
+
 ### AMDGPU
 
 ```sh
