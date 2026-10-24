@@ -67,6 +67,7 @@ modules:
         - perf
         - ripgrep
         - scrcpy
+        - sequoia-sq
         - starship
         - strace
         - sysprof
