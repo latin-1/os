@@ -126,6 +126,7 @@ modules:
           - org.gnome.NautilusPreviewer
           - org.gnome.Papers
           - org.gnome.PowerStats
+          - org.gnome.seahorse.Application
           - org.gnome.Showtime
           - org.gnome.Snapshot
           - org.gnome.TextEditor
