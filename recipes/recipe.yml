@@ -30,6 +30,7 @@ modules:
         - ibus-rime
         - keyd
         - libblockdev-smartmontools
+        - librime-lua
         - ntsync-autoload
         - openh264
         - python3-icoextract # For exe-thumbnailer
